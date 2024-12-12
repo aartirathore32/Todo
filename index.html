@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Note-Taking App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>🖋️ Dynamic Notes</h1>
+      <p>Your thoughts, beautifully customized!</p>
+    </header>
+    <main>
+      <div class="note-input">
+        <input type="text" id="noteInput" placeholder="Write your note here..." maxlength="100">
+        <button id="addNoteButton">➕ Add Note</button>
+      </div>
+      <div id="themeChanger">
+        <p>Toggle Mode:</p>
+        <button id="toggleMode">🌙 Dark Mode</button>
+      </div>
+      <div id="notesContainer" class="notes-list"></div>
+    </main>
+    <footer>
+      <p>✨ Designed with ❤️ by Aarti ✨</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
